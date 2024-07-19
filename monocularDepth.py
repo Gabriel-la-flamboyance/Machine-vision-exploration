@@ -6,7 +6,7 @@ import time
 path_model = "C:/Users/mugis/Documents/Master_IN/visionBasedEmbeddesSystem/recap/models/"
 
 # Name of the model file
-model_name = "model-f6b98070.onnx"
+model_name = "model-f6b98070.onnx"  # Couldn't push this model, download it here --> https://drive.google.com/file/d/1q_aPK0jiddeGNmA5Tg8FhFlr6Cm9XZZ1/view?usp=sharing
 
 # Load the neural network model using OpenCV's DNN module
 model = cv2.dnn.readNet(path_model + model_name)
